@@ -20,14 +20,6 @@ ul {
   min-height: 100vh;
 }
 
-.link-box {
-  display: inline-block;
-  padding: 0.5rem;
-  border: black 0.1rem solid;
-  border-radius: 0.2rem;
-  margin: 0.5rem;
-}
-
 .grid {
   overflow: auto;
   background: white;
@@ -39,10 +31,6 @@ ul {
   float: left;
   margin: 1rem;
   width: calc(100% / 2 - 1rem - 1rem);
-}
-
-.link-box--right {
-  float:right;
 }
 
 .top-nav {
