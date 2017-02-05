@@ -65,93 +65,95 @@ ul {
 }
 
 .container2 {
-  padding: 6rem;
+  margin: 1rem;
 }
 
 .grid {
   overflow: auto;
-  width: 6.8;
-  height: 60vh;
-  margin-top: 0.05rem;
-  margin-left: 8.5rem;
-  /*margin-right: 20rem;*/
-  margin-bottom: 0;
+  height: 100%;
+  margin: auto;
+  width: 70%;
 }
 
 .grid__item {
-  background: white;
   border: rgba(131,131,131,.46) 0.1rem solid;
   margin: 1rem;
   width: calc(100% / 3 - 1rem - 1rem);
-  min-width: 15rem;
-  height: 25vh;
   border-radius: 0.3rem;
+  float: left;
 }
 
 .profile {
-  background: purple;
-  padding: 1rem;
+
+}
+
+.profile1 {
+  min-height: 5.5rem;
 }
 
 .profile-info {
-  background: red;
-  height: 5rem;
-  padding: 0.5rem;
+
 }
 
-.profile-details {
-  background: white;
+.profile2s {
+
+}
+
+.profile2 {
   padding: 0.5rem;
   border-top: rgba(131,131,131,.46) 0.1rem solid;
 }
 
 .profile__subsection {
-  background: yellow;
   float: right;
 }
 
 .profile__pic {
   float: left;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
   border-radius: 10%;
+  margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
 .profile__name {
-  margin: 0;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .profile__username {
   font-size: 15px;
+  font-weight: lighter;
   color: rgba(101,100,100,.5);
   margin: 0;
 }
 
 .profile__dot-purple {
   display: inline-block;
-  height: 0.5rem;
-  width: 0.5rem;
+  height: 0.6rem;
+  width: 0.6rem;
   background: rebeccapurple;
   border-radius: 50%;
 }
 .profile__dot-blue {
   display: inline-block;
-  height: 0.5rem;
-  width: 0.5rem;
+  height: 0.6rem;
+  width: 0.6rem;
   background: blue;
   border-radius: 50%;
 }
 
 .profile__language {
-  font-size: 12px;
+  font-size: 14px;
   display: inline-block;
   margin: 0;
   text-align: right;
 }
 
 .profile__repo {
-  font-size: 12px;
+  font-size: 14px;
   display: inline-block;
   margin: 0;
 }
