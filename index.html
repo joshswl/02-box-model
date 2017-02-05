@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="styles/app.css">
   </head>
   <body>
-    <header class="navbar">
-      <div class="nav__left">
-        <title class="right-text">Popular Github</title>
-      </div>
-      </div class="nav right">
-        <title class="left-text">People</title>
-      </div>
-    </header>
-    <main class="section">
-      <div class="container">
+    <div class="app">
+      <nav class="app__nav">
+        <div class="container">
+          <div class="top-nav">
+            <h1 class="top-nav__left">Popular Github</h1>
+
+            <div class="top-nav__left">
+              <ul class="nav-list">
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#welcome">People</a>
+                </li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#about">Repos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container2">
         <div class="grid">
           <article class="grid__item">
             <div class"profile">
@@ -45,7 +55,7 @@
           </article>
         </div>
       </div>
-    </main>
+    </div>
   </body>
 
 </html>
