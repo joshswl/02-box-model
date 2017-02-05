@@ -68,20 +68,6 @@ ul {
   padding: 6rem;
 }
 
-.left-text {
-  color: white;
-  float: left;
-}
-
-.right-text {
-  color: white;
-  float: right;
-}
-
-.section {
-  background: #ffffff;
-}
-
 .grid {
   overflow: auto;
   width: 6.8;
