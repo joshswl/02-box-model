@@ -145,6 +145,14 @@ ul {
   border-radius: 50%;
 }
 
+.profile__dot-yellow {
+  display: inline-block;
+  height: 0.6rem;
+  width: 0.6rem;
+  background: #c8c600;
+  border-radius: 50%;
+}
+
 .profile__language {
   font-size: 14px;
   display: inline-block;
