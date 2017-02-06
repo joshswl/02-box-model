@@ -72,7 +72,7 @@ ul {
   overflow: auto;
   height: 100%;
   margin: auto;
-  width: 70%;
+  width: 80%;
 }
 
 .grid__item {
@@ -137,11 +137,11 @@ ul {
   background: rebeccapurple;
   border-radius: 50%;
 }
-.profile__dot-blue {
+.profile__dot-green {
   display: inline-block;
   height: 0.6rem;
   width: 0.6rem;
-  background: blue;
+  background: #00a333;
   border-radius: 50%;
 }
 
@@ -150,6 +150,30 @@ ul {
   height: 0.6rem;
   width: 0.6rem;
   background: #c8c600;
+  border-radius: 50%;
+}
+
+.profile__dot-ruby {
+  display: inline-block;
+  height: 0.6rem;
+  width: 0.6rem;
+  background: #600000;
+  border-radius: 50%;
+}
+
+.profile__dot-blue {
+  display: inline-block;
+  height: 0.6rem;
+  width: 0.6rem;
+  background: #001390;
+  border-radius: 50%;
+}
+
+.profile__dot-blue2 {
+  display: inline-block;
+  height: 0.6rem;
+  width: 0.6rem;
+  background: #273488;
   border-radius: 50%;
 }
 
