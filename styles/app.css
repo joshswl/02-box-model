@@ -14,10 +14,6 @@ ul {
 }
 
 
-.app {
-
-}
-
 .app__nav {
   background: #13c1df;
   color: white;
@@ -71,8 +67,7 @@ ul {
 .grid {
   overflow: auto;
   height: 100%;
-  margin: auto;
-  width: 80%;
+  margin: 1.5rem;
 }
 
 .grid__item {
@@ -83,20 +78,8 @@ ul {
   float: left;
 }
 
-.profile {
-
-}
-
 .profile1 {
   min-height: 5.5rem;
-}
-
-.profile-info {
-
-}
-
-.profile2s {
-
 }
 
 .profile2 {
