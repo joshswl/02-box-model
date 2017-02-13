@@ -30,22 +30,20 @@ ul {
   margin: 0 auto;
 }
 
-.top-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
 .top-nav__left {
   margin: 0;
-
   font-size: 1.2rem;
   font-weight: bold;
+  float: left;
+}
+
+.top-nav__right {
+  float: right;
+  min-width: 10rem;
 }
 
 .nav-list {
-  display: flex;
-  margin: 0 -0.5rem;
-
+  margin: 0;
   font-size: 1.2rem;
   font-weight: 300rem;
 }
@@ -54,14 +52,18 @@ ul {
   margin: 0 0.5rem;
 }
 
-.nav-list__link {
+.nav-list__link1 {
+  float: left;
   color: inherit;
   font-weight: normal;
   text-decoration: none;
 }
 
-.container2 {
-  margin: 1rem;
+.nav-list__link2 {
+  float: right;
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .grid {
